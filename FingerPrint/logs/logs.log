@@ -1,0 +1,16 @@
+2017-05-23 10:26:26,930931 INFO [default] First log
+2017-05-23 10:29:10,730300 INFO [default] First log
+2017-05-23 10:29:10,730300 INFO [default] [Test, Test 2]
+2017-05-23 10:29:10,730300 INFO [default] (test, 2)
+2017-05-23 10:30:24,144499 INFO [default] First log
+2017-05-23 10:30:24,144499 INFO [default] [Test, Test 2]
+2017-05-23 10:30:24,144499 INFO [default] (test, 2)
+2017-05-23 10:32:34,933980 INFO [default] First log
+2017-05-23 10:32:34,934980 INFO [default] [Test, Test 2]
+2017-05-23 10:32:34,934980 INFO [default] (test, 2)
+2017-05-23 10:33:34,860407 INFO First log
+2017-05-23 10:33:34,860407 INFO [Test, Test 2]
+2017-05-23 10:33:34,860407 INFO (test, 2)
+2017-05-23 10:41:25,492326 [INFO] First log
+2017-05-23 10:41:25,493326 [INFO] [Test, Test 2]
+2017-05-23 10:41:25,493326 [INFO] (test, 2)

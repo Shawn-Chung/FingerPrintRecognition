@@ -1,0 +1,4 @@
+2017-05-23 10:32:34,934980 ERROR [default] [int qMain(int, char**)] [main.cpp:18] Starting Qt Logging
+2017-05-23 10:33:34,860407 ERROR [int qMain(int, char**)] [main.cpp:18] Starting Qt Logging
+2017-05-23 10:41:25,475325 [ERROR] [FingerPrint::FingerPrint(QWidget*)] [FingerPrint.cpp:10] Finger Print stucture....
+2017-05-23 10:41:25,493326 [ERROR] [int qMain(int, char**)] [main.cpp:18] Starting Qt Logging
