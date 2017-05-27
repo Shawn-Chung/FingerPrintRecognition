@@ -33,10 +33,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += main.cpp\
         FingerPrint.cpp \
-    easylogging++.cc
+    easylogging++.cc \
+    CDatabase.cpp \
+    CImage.cpp
 
 HEADERS  += FingerPrint.h \
-    easylogging++.h
+    easylogging++.h \
+    CDatabase.h \
+    CImage.h
 
 FORMS    += FingerPrint.ui
 

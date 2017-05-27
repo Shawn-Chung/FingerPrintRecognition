@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_FingerPrint_t {
-    QByteArrayData data[16];
-    char stringdata0[337];
+    QByteArrayData data[20];
+    char stringdata0[437];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -46,7 +46,11 @@ QT_MOC_LITERAL(11, 222, 23), // "on_m_btnTexture_clicked"
 QT_MOC_LITERAL(12, 246, 22), // "on_m_btnBinary_clicked"
 QT_MOC_LITERAL(13, 269, 20), // "on_m_btnThin_clicked"
 QT_MOC_LITERAL(14, 290, 21), // "on_m_btnDebur_clicked"
-QT_MOC_LITERAL(15, 312, 24) // "on_m_btnMinutiae_clicked"
+QT_MOC_LITERAL(15, 312, 24), // "on_m_btnMinutiae_clicked"
+QT_MOC_LITERAL(16, 337, 24), // "on_actionDB1_B_triggered"
+QT_MOC_LITERAL(17, 362, 24), // "on_actionDB2_B_triggered"
+QT_MOC_LITERAL(18, 387, 24), // "on_actionDB3_B_triggered"
+QT_MOC_LITERAL(19, 412, 24) // "on_actionDB4_B_triggered"
 
     },
     "FingerPrint\0on_m_btnClose_clicked\0\0"
@@ -56,7 +60,11 @@ QT_MOC_LITERAL(15, 312, 24) // "on_m_btnMinutiae_clicked"
     "on_m_btnSegment_clicked\0on_m_btnEnhance_clicked\0"
     "on_m_btnTexture_clicked\0on_m_btnBinary_clicked\0"
     "on_m_btnThin_clicked\0on_m_btnDebur_clicked\0"
-    "on_m_btnMinutiae_clicked"
+    "on_m_btnMinutiae_clicked\0"
+    "on_actionDB1_B_triggered\0"
+    "on_actionDB2_B_triggered\0"
+    "on_actionDB3_B_triggered\0"
+    "on_actionDB4_B_triggered"
 };
 #undef QT_MOC_LITERAL
 
@@ -66,7 +74,7 @@ static const uint qt_meta_data_FingerPrint[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-      14,   14, // methods
+      18,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -74,22 +82,30 @@ static const uint qt_meta_data_FingerPrint[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   84,    2, 0x08 /* Private */,
-       3,    0,   85,    2, 0x08 /* Private */,
-       4,    0,   86,    2, 0x08 /* Private */,
-       5,    0,   87,    2, 0x08 /* Private */,
-       6,    0,   88,    2, 0x08 /* Private */,
-       7,    0,   89,    2, 0x08 /* Private */,
-       8,    0,   90,    2, 0x08 /* Private */,
-       9,    0,   91,    2, 0x08 /* Private */,
-      10,    0,   92,    2, 0x08 /* Private */,
-      11,    0,   93,    2, 0x08 /* Private */,
-      12,    0,   94,    2, 0x08 /* Private */,
-      13,    0,   95,    2, 0x08 /* Private */,
-      14,    0,   96,    2, 0x08 /* Private */,
-      15,    0,   97,    2, 0x08 /* Private */,
+       1,    0,  104,    2, 0x08 /* Private */,
+       3,    0,  105,    2, 0x08 /* Private */,
+       4,    0,  106,    2, 0x08 /* Private */,
+       5,    0,  107,    2, 0x08 /* Private */,
+       6,    0,  108,    2, 0x08 /* Private */,
+       7,    0,  109,    2, 0x08 /* Private */,
+       8,    0,  110,    2, 0x08 /* Private */,
+       9,    0,  111,    2, 0x08 /* Private */,
+      10,    0,  112,    2, 0x08 /* Private */,
+      11,    0,  113,    2, 0x08 /* Private */,
+      12,    0,  114,    2, 0x08 /* Private */,
+      13,    0,  115,    2, 0x08 /* Private */,
+      14,    0,  116,    2, 0x08 /* Private */,
+      15,    0,  117,    2, 0x08 /* Private */,
+      16,    0,  118,    2, 0x08 /* Private */,
+      17,    0,  119,    2, 0x08 /* Private */,
+      18,    0,  120,    2, 0x08 /* Private */,
+      19,    0,  121,    2, 0x08 /* Private */,
 
  // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -128,6 +144,10 @@ void FingerPrint::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         case 11: _t->on_m_btnThin_clicked(); break;
         case 12: _t->on_m_btnDebur_clicked(); break;
         case 13: _t->on_m_btnMinutiae_clicked(); break;
+        case 14: _t->on_actionDB1_B_triggered(); break;
+        case 15: _t->on_actionDB2_B_triggered(); break;
+        case 16: _t->on_actionDB3_B_triggered(); break;
+        case 17: _t->on_actionDB4_B_triggered(); break;
         default: ;
         }
     }
@@ -159,13 +179,13 @@ int FingerPrint::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 14)
+        if (_id < 18)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 14;
+        _id -= 18;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 14)
+        if (_id < 18)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 14;
+        _id -= 18;
     }
     return _id;
 }

@@ -1,4 +1,9 @@
-2017-05-23 10:32:34,934980 ERROR [default] [int qMain(int, char**)] [main.cpp:18] Starting Qt Logging
-2017-05-23 10:33:34,860407 ERROR [int qMain(int, char**)] [main.cpp:18] Starting Qt Logging
-2017-05-23 10:41:25,475325 [ERROR] [FingerPrint::FingerPrint(QWidget*)] [FingerPrint.cpp:10] Finger Print stucture....
-2017-05-23 10:41:25,493326 [ERROR] [int qMain(int, char**)] [main.cpp:18] Starting Qt Logging
+2017-05-27 15:24:07,238422 [ERROR] [int CDatabase::getImage(QImage&)] [CDatabase.cpp:44] the database is empty!
+2017-05-27 15:32:03,646671 [ERROR] [int CDatabase::getImage(QImage&)] [CDatabase.cpp:44] the database is empty!
+2017-05-27 15:32:05,478776 [ERROR] [int CDatabase::getImage(QImage&)] [CDatabase.cpp:44] the database is empty!
+2017-05-27 15:32:06,816853 [ERROR] [int CDatabase::getImage(QImage&)] [CDatabase.cpp:44] the database is empty!
+2017-05-27 15:32:08,022922 [ERROR] [int CDatabase::getImage(QImage&)] [CDatabase.cpp:44] the database is empty!
+2017-05-27 15:32:08,855969 [ERROR] [int CDatabase::getImage(QImage&)] [CDatabase.cpp:44] the database is empty!
+2017-05-27 15:32:10,031036 [ERROR] [int CDatabase::getImage(QImage&)] [CDatabase.cpp:44] the database is empty!
+2017-05-27 15:33:29,310571 [ERROR] [int CDatabase::getImage(QImage&)] [CDatabase.cpp:44] the database is empty!
+2017-05-27 15:33:30,047613 [ERROR] [int CDatabase::getImage(QImage&)] [CDatabase.cpp:44] the database is empty!

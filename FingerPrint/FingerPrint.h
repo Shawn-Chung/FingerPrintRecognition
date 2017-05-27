@@ -2,6 +2,9 @@
 #define FINGERPRINT_H
 
 #include <QMainWindow>
+#include "CDatabase.h"
+#include "CImage.h"
+
 
 namespace Ui {
 class FingerPrint;
@@ -44,8 +47,18 @@ private slots:
 
     void on_m_btnMinutiae_clicked();
 
+    void on_actionDB1_B_triggered();
+
+    void on_actionDB2_B_triggered();
+
+    void on_actionDB3_B_triggered();
+
+    void on_actionDB4_B_triggered();
+
 private:
     Ui::FingerPrint *ui;
+    CDatabase m_cDataBase;
+    CImage m_curImage;
 };
 
 #endif // FINGERPRINT_H

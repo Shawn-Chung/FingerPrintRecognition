@@ -114,7 +114,8 @@ public:
     {
         if (FingerPrint->objectName().isEmpty())
             FingerPrint->setObjectName(QStringLiteral("FingerPrint"));
-        FingerPrint->resize(880, 490);
+        FingerPrint->resize(1152, 607);
+        FingerPrint->setMinimumSize(QSize(900, 500));
         actionzhuce = new QAction(FingerPrint);
         actionzhuce->setObjectName(QStringLiteral("actionzhuce"));
         actionren = new QAction(FingerPrint);
@@ -158,7 +159,9 @@ public:
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
         m_lbSrcImg = new QLabel(m_Register);
         m_lbSrcImg->setObjectName(QStringLiteral("m_lbSrcImg"));
+        m_lbSrcImg->setMaximumSize(QSize(195, 197));
         m_lbSrcImg->setStyleSheet(QStringLiteral("background-color: rgb(170, 0, 0);"));
+        m_lbSrcImg->setScaledContents(true);
 
         verticalLayout->addWidget(m_lbSrcImg);
 
@@ -484,7 +487,7 @@ public:
         FingerPrint->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(FingerPrint);
         menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 880, 23));
+        menuBar->setGeometry(QRect(0, 0, 1152, 23));
         menu = new QMenu(menuBar);
         menu->setObjectName(QStringLiteral("menu"));
         menu_2 = new QMenu(menuBar);

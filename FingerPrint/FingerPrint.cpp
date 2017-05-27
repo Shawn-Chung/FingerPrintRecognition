@@ -34,10 +34,17 @@ void FingerPrint::on_actionren_triggered()
 {
     ui->m_DisWidget->setCurrentIndex(1);
 }
-
+//从数据库读取一张图片并显示在label上
 void FingerPrint::on_m_btnSrcImg_clicked()
 {
-
+    if(-1 == m_cDataBase.getImage(m_curImage))
+    {
+        LOG(INFO)<< "get image failed!";
+        ui->m_leResult->setText("the database is empty, please load the database first!");
+        return;
+    }
+    ui->m_leResult->clear();
+    ui->m_lbSrcImg->setPixmap(QPixmap::fromImage(m_curImage.getQImage()));
 }
 
 void FingerPrint::on_m_btnOriFild_clicked()
@@ -83,4 +90,40 @@ void FingerPrint::on_m_btnDebur_clicked()
 void FingerPrint::on_m_btnMinutiae_clicked()
 {
 
+}
+
+void FingerPrint::on_actionDB1_B_triggered()
+{
+    LOG(INFO)<< "loading database DB1_B";
+
+    m_cDataBase.load(DB1_B);
+
+    LOG(INFO)<< "database is loaded success";
+}
+
+void FingerPrint::on_actionDB2_B_triggered()
+{
+    LOG(INFO)<< "loading database DB2_B";
+
+    m_cDataBase.load(DB2_B);
+
+    LOG(INFO)<< "database is loaded success";
+}
+
+void FingerPrint::on_actionDB3_B_triggered()
+{
+    LOG(INFO)<< "loading database DB3_B";
+
+    m_cDataBase.load(DB3_B);
+
+    LOG(INFO)<< "database is loaded success";
+}
+
+void FingerPrint::on_actionDB4_B_triggered()
+{
+    LOG(INFO)<< "loading database DB4_B";
+
+    m_cDataBase.load(DB4_B);
+
+    LOG(INFO)<< "database is loaded success";
 }

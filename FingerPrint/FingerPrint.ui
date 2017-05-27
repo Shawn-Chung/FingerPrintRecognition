@@ -6,9 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>880</width>
-    <height>490</height>
+    <width>1152</width>
+    <height>607</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>500</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>FingerPrint</string>
@@ -33,11 +39,20 @@
                 <layout class="QVBoxLayout" name="verticalLayout">
                  <item>
                   <widget class="QLabel" name="m_lbSrcImg">
+                   <property name="maximumSize">
+                    <size>
+                     <width>195</width>
+                     <height>197</height>
+                    </size>
+                   </property>
                    <property name="styleSheet">
                     <string notr="true">background-color: rgb(170, 0, 0);</string>
                    </property>
                    <property name="text">
                     <string/>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
                    </property>
                   </widget>
                  </item>
@@ -435,7 +450,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>880</width>
+     <width>1152</width>
      <height>23</height>
     </rect>
    </property>
