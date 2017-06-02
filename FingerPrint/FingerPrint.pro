@@ -35,12 +35,16 @@ SOURCES += main.cpp\
         FingerPrint.cpp \
     easylogging++.cc \
     CDatabase.cpp \
-    CImage.cpp
+    CImage.cpp \
+    CAlgo.cpp \
+    CSizeNormalize.cpp
 
 HEADERS  += FingerPrint.h \
     easylogging++.h \
     CDatabase.h \
-    CImage.h
+    CImage.h \
+    CAlgo.h \
+    CSizeNormalize.h
 
 FORMS    += FingerPrint.ui
 
