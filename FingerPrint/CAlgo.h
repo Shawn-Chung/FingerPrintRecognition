@@ -9,6 +9,7 @@ class CAlgo
 {
 public:
     CAlgo(QString name){m_strName = name;}
+    virtual ~CAlgo();
 
     virtual int exec(CImage in, CImage &out);
 

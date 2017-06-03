@@ -2,8 +2,10 @@
 #define FINGERPRINT_H
 
 #include <QMainWindow>
+#include <QLabel>
 #include "CDatabase.h"
 #include "CImage.h"
+#include "CSizeNormalize.h"
 
 
 namespace Ui {
@@ -59,6 +61,8 @@ private:
     Ui::FingerPrint *ui;
     CDatabase m_cDataBase;
     CImage m_curImage;
+
+    void showImageOnLabel(QLabel *lab, CImage &img);
 };
 
 #endif // FINGERPRINT_H

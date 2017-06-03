@@ -15,6 +15,11 @@ FingerPrint::~FingerPrint()
     delete ui;
 }
 
+void FingerPrint::showImageOnLabel(QLabel *lab, CImage &img)
+{
+    lab->setPixmap(QPixmap::fromImage(img.getQImage()));
+}
+
 void FingerPrint::on_m_btnClose_clicked()
 {
     close();
@@ -44,12 +49,18 @@ void FingerPrint::on_m_btnSrcImg_clicked()
         return;
     }
     ui->m_leResult->clear();
-    ui->m_lbSrcImg->setPixmap(QPixmap::fromImage(m_curImage.getQImage()));
+    showImageOnLabel(ui->m_lbSrcImg, m_curImage);
 }
 
 void FingerPrint::on_m_btnOriFild_clicked()
 {
+    CImage imgSize(m_curImage.getWidth()/2, m_curImage.getHeight()/2);
 
+    CAlgo *normalize = new CSizeNormalize("SizeNormalize");
+    normalize->exec(m_curImage, imgSize);
+
+    m_curImage = imgSize;
+    showImageOnLabel(ui->m_lbOriFild, m_curImage);
 }
 
 void FingerPrint::on_m_btnMatude_clicked()

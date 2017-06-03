@@ -69,11 +69,20 @@
                 <layout class="QVBoxLayout" name="verticalLayout_2">
                  <item>
                   <widget class="QLabel" name="m_lbOriFild">
+                   <property name="maximumSize">
+                    <size>
+                     <width>195</width>
+                     <height>197</height>
+                    </size>
+                   </property>
                    <property name="styleSheet">
                     <string notr="true">background-color: rgb(0, 85, 0);</string>
                    </property>
                    <property name="text">
                     <string/>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
                    </property>
                   </widget>
                  </item>
