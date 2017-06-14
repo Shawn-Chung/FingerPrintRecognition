@@ -37,14 +37,16 @@ SOURCES += main.cpp\
     CDatabase.cpp \
     CImage.cpp \
     CAlgo.cpp \
-    CSizeNormalize.cpp
+    CSizeNormalize.cpp \
+    CBinary.cpp
 
 HEADERS  += FingerPrint.h \
     easylogging++.h \
     CDatabase.h \
     CImage.h \
     CAlgo.h \
-    CSizeNormalize.h
+    CSizeNormalize.h \
+    CBinary.h
 
 FORMS    += FingerPrint.ui
 
